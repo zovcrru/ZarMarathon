@@ -70,7 +70,7 @@ function formattedPhone() {
           return "";
       }
     }
-    if (i == 1 && char === "7") {
+    if (i === 1 && char === "7") {
       formatPhone += " (";
       j -= 2;
     }
